@@ -23,7 +23,7 @@ if(Input::has('submit')){
 		"+16149024463",
 		Input::get('phone_num'),
 		"Congrats! Here is your ticket.",
-		"http://seedmissions.com/qrcode?name=".urlencode(Input::get('name')) . "&phone_num=" . Input::get('phone_num')
+		"http://104.131.70.196/qrcode?name=".urlencode(Input::get('name')) . "&phone_num=" . Input::get('phone_num')
 		);
 }
 
